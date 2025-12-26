@@ -1,4 +1,7 @@
-api = "cr69D4qNSWsn6OcruJg8EP1YcKE4cexq69AqdS3kei4"
+import os
+
+
+api = os.environ.get("LLMWhisperer_API_Key")
 
 # import os
 # import time

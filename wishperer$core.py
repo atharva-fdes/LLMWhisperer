@@ -1,6 +1,7 @@
 import re
 import pandas as pd
 import time
+import os
 # ---------------------------------------------------
 # 1. Parse ASCII table into raw rows
 # ---------------------------------------------------
@@ -11,8 +12,8 @@ from unstract.llmwhisperer.client_v2 import LLMWhispererClientException
 # ==============================
 # CONFIG
 # ==============================
-# LLMWHISPERER_API_KEY = "cr69D4qNSWsn6OcruJg8EP1YcKE4cexq69AqdS3kei4"
-LLMWHISPERER_API_KEY = "hd5LRgi8ssWTyKHNPYh4jtIR-x3X6uNt2KOU5qCrKos" #atharva
+# LLMWHISPERER_API_KEY = os.environ.get("LLMWhisperer_API_Key_Abu") #abu
+LLMWHISPERER_API_KEY = os.environ.get("LLMWhisperer_API_Key_Ath") #atharva
 
 PDF_PATH = r"dataset\ICICI_1.pdf"
 OUTPUT_EXCEL = r"output Core\ICICI_1_updated.xlsx"
