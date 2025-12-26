@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Datasets (PDFs)
+dataset/
+
+# Generated outputs
+output/
+output Core/
+*.xlsx
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
